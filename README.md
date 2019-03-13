@@ -1,5 +1,4 @@
 # ToBeNamedPortfilio
-An online portfolio for ...
 This is a website that will serve as an online portfolio for ..., to display their artwork. 
 
 ## --- Stack ---
