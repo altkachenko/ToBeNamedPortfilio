@@ -15,7 +15,7 @@ This is will be a website that will act as an online portfolio/gallery.
   * The database chosen is dependent on the support it has for the chosen backend language. SQL is preffered over NoSQL for this project.
 
 * Docker for packaging/deploying the application. 
- * It seems easier to use and run than vagrant when hosting the app on on some hosting service (TBD).
+  * It seems easier to use and run than vagrant when hosting the app on on some hosting service (TBD).
 * nginx as the app server - maybe? 
- * not sure if this is really required yet, but it may be a good idea to use it just in case.
+  * not sure if this is really required yet, but it may be a good idea to use it just in case.
 * Need to look into different cloud hosting options... (most likely going to Heroku as its free)
