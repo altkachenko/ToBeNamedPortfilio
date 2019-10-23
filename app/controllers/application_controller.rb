@@ -10,8 +10,8 @@ class ApplicationController < ActionController::Base
         options[:action] ||= action_name
 
         respond_to do |format|
-            format.html {render "/#{options[:controller_name]}/#{action_name}.html.erb"}
-            format.js {render "/#{options[:controller_name]}/#{action_name}.js.erb"}
+            format.html {render "/#{options[:controller]}/#{options[:action]}.html.erb"}
+            format.js {render "/#{options[:controller]}/#{options[:action]}.js.erb"}
         end
     end
 end
